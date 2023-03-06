@@ -24,6 +24,7 @@
     crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://kit.fontawesome.com/2de5a76cd6.css" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/2de5a76cd6.js" crossorigin="anonymous"></script>
+    <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
 </head>
 
 <body>
@@ -189,7 +190,9 @@
             <p class="mb-4">
               TikChocoOnline PlusはTikChocoOnlineを支援する新しいサブスクリプションサービスです。
       
-            </p>
+            </p>            <div class="align-self-center">
+              <a type="button" class="btn btn-primary" href="subscription">TikChocoOnline Plusに加入</a>
+          </div>
         </div>
       </section></div>
 
@@ -200,10 +203,16 @@
           <!--Section: Content 3-->
           <section>
             <div class="row">
-                <h3 class="mb-3">サブスクリプションを選択</h3>
+                <h3 class="mb-3">購入クレジット数選択</h3>
+                <p>お支払い方法はクレジット数を選択後、次のページで選べます。表示価格は内税（税込）です。</p>
                 <div class="align-self-center">
-                  <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
-                  <stripe-pricing-table pricing-table-id="prctbl_1MidSiDs8yoLpGZtVg8YDerA"
+                  <stripe-pricing-table pricing-table-id="prctbl_1MihFuDs8yoLpGZtBh5QE2fd"
+                  publishable-key="pk_test_51MiXmQDs8yoLpGZtrosnOOp85RWjXI8b0k8YiGkvOo6eErG9Bz8cEzJU7de03ju1IjLENctrpIqzdsHVPWiaVAL600LLbUCErU">
+                  </stripe-pricing-table>
+                  <stripe-pricing-table pricing-table-id="prctbl_1MihHKDs8yoLpGZtzO1Kmbbk"
+                  publishable-key="pk_test_51MiXmQDs8yoLpGZtrosnOOp85RWjXI8b0k8YiGkvOo6eErG9Bz8cEzJU7de03ju1IjLENctrpIqzdsHVPWiaVAL600LLbUCErU">
+                  </stripe-pricing-table>
+                  <stripe-pricing-table pricing-table-id="prctbl_1MihIQDs8yoLpGZt9cAlDRoL"
                   publishable-key="pk_test_51MiXmQDs8yoLpGZtrosnOOp85RWjXI8b0k8YiGkvOo6eErG9Bz8cEzJU7de03ju1IjLENctrpIqzdsHVPWiaVAL600LLbUCErU">
                   </stripe-pricing-table>
             </div>
