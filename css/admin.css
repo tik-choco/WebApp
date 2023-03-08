@@ -1,3 +1,5 @@
+@import url(font.css);
+@import url(style.css);
 body {
   touch-action: manipulation;
   background-color: #fbfbfb;
